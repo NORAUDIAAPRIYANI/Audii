@@ -19,6 +19,7 @@ class ProdiFactory extends Factory
         return [
             //
             'nama_prodi' => fake()->sentence(mt_rand(2,3))
+            
         ];
     }
 }
